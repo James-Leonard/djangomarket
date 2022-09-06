@@ -1,1 +1,1 @@
-web gunicorn marketplace.wsgi:application --log-file -
+web gunicorn marketplace.wsgi
