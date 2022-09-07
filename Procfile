@@ -1,1 +1,1 @@
-web: gunicorn 'marketplace.wsgi'
+web: python manage.py migrate && gunicorn market.wsgi
